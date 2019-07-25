@@ -30,6 +30,9 @@ public class CourseMsgController extends BaseController {
 
     @Autowired
     private CourseService courseService;
+    
+    
+    
 
    /* 返回首页的课程信息*/
     @RequestMapping("/courseList")

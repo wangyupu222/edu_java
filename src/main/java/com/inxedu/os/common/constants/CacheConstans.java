@@ -24,6 +24,7 @@ public class CacheConstans {
 	public static final int USER_TIME = Integer.parseInt(webPropertyUtil.getProperty("USER_TIME"));//前台登录用户缓存6小时
 	public static final String USER_CURRENT_LOGINTIME = MEMFIX+"USER_CURRENT_LOGINTIME_";//记录当前用户当前的登录时间，下次登录时会更新此缓存
 
+	
 	/** 缓存后台登录用户ehcache前缀 */
 	public static final String LOGIN_MEMCACHE_PREFIX = MEMFIX + "login_sys_user_";
 	/** 后台所有用户权限缓存名前缀 **/
